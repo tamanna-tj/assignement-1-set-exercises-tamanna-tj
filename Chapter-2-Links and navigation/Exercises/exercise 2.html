@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Stranger Things Fan Page</title>
+
+  <style>
+    /* Basic Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* Body styling */
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #0d0d0d;
+      color: #f0f0f0;
+      scroll-behavior: smooth;
+      line-height: 1.6;
+    }
+
+    /* Navbar styling */
+    .navbar {
+      background-color: #1f1f1f;
+      padding: 15px 0;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.6);
+    }
+
+    .navbar ul {
+      list-style: none;
+      display: inline-flex;
+      gap: 40px;
+    }
+
+    .navbar a {
+      color: #f0f0f0;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 18px;
+      padding: 8px 15px;
+      border-radius: 5px;
+      transition: background 0.3s, color 0.3s;
+    }
+
+    .navbar a:hover {
+      background-color: #e50914;
+      color: #fff;
+    }
+
+    /* Section styling */
+    .section {
+      padding: 60px 20px;
+      max-width: 900px;
+      margin: 0 auto;
+      border-bottom: 1px solid #333;
+    }
+
+    .section:last-of-type {
+      border-bottom: none;
+    }
+
+    .section h1, 
+    .section h2 {
+      color: #e50914;
+      margin-bottom: 20px;
+    }
+
+    .section ul {
+      margin-left: 20px;
+      list-style-type: disc;
+    }
+
+    .section p {
+      margin-bottom: 15px;
+    }
+
+    /* Button styling */
+    .button-container {
+      text-align: center;
+      padding: 50px 0;
+    }
+
+    .btn {
+      background-color: #e50914;
+      color: white;
+      padding: 14px 30px;
+      font-size: 18px;
+      text-decoration: none;
+      border-radius: 30px;
+      display: inline-block;
+      transition: background-color 0.3s, transform 0.2s;
+    }
+
+    .btn:hover {
+      background-color: #b0060f;
+      transform: scale(1.05);
+    }
+  </style>
+
+</head>
+<body>
+
+  <nav class="navbar">
+    <ul>
+      <li><a href="#overview">Overview</a></li>
+      <li><a href="#info">Key Info</a></li>
+      <li><a href="#cast">Cast & Team</a></li>
+      <li><a href="#characters">Characters</a></li>
+      <li><a href="#reviews">Reviews</a></li>
+    </ul>
+  </nav>
+
+  <section id="overview" class="section">
+    <h1>Overview</h1>
+    <p><strong>Stranger Things</strong> is a science fiction horror drama series created by the Duffer Brothers. Set in the 1980s, it follows a group of young friends in Hawkins, Indiana, as they uncover supernatural mysteries, secret experiments, and a parallel dimension called the Upside Down.</p>
+  </section>
+
+  <section id="info" class="section">
+    <h2>Key Information</h2>
+    <ul>
+      <li>First Released: July 15, 2016</li>
+      <li>Genre: Science Fiction, Horror, Drama</li>
+      <li>Available On: Netflix</li>
+    </ul>
+  </section>
+
+  <section id="cast" class="section">
+    <h2>Cast & Creative Team</h2>
+    <p><strong>Creators:</strong> Matt and Ross Duffer</p>
+    <p><strong>Main Cast:</strong> Winona Ryder, David Harbour, Millie Bobby Brown, Finn Wolfhard, Gaten Matarazzo, Caleb McLaughlin, Natalia Dyer, Charlie Heaton, and others.</p>
+  </section>
+
+  <section id="characters" class="section">
+    <h2>Characters</h2>
+    <ul>
+      <li>Eleven (Millie Bobby Brown)</li>
+      <li>Mike Wheeler (Finn Wolfhard)</li>
+      <li>Jim Hopper (David Harbour)</li>
+      <li>Will Byers (Noah Schnapp)</li>
+      <li>Joyce Byers (Winona Ryder)</li>
+    </ul>
+  </section>
+
+  <section id="reviews" class="section">
+    <h2>Reviews</h2>
+    <p><em>Rotten Tomatoes Score:</em> 93%</p>
+    <p><em>IMDb Rating:</em> 8.7/10</p>
+    <p>Critics praise Stranger Things for its nostalgic feel, strong performances, and thrilling plotlines.</p>
+  </section>
+
+  <div class="button-container">
+    <a href="https://www.netflix.com/strangerthings" target="_blank" class="btn">Visit Official Site</a>
+  </div>
+
+</body>
+</html>
