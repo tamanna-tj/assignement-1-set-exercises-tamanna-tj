@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nature Gallery - Filtered Duplicates</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+        .image-container {
+            margin-bottom: 30px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .license {
+            font-size: 0.9em;
+            color: #555;
+        }
+        /* Individual filters for each image */
+        .img1 {
+            filter: sepia(60%) contrast(1.2);
+        }
+        .img2 {
+            filter: saturate(150%) brightness(1.1);
+        }
+        .img3 {
+            filter: hue-rotate(30deg) grayscale(30%);
+        }
+    </style>
+</head>
+<body>
+    <h1>Nature Photo Gallery - Filtered Duplicates</h1>
+
+    <div class="image-container">
+        <img class="img1"
+             src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=60"
+             alt="Snow-covered mountain peak under a blue sky"
+             width="800"
+             height="533"
+             title="Snowy Mountain by eberhard grossgasteiger">
+        <p class="license">Photo by eberhard grossgasteiger on Unsplash — Free for commercial use, no attribution required</p>
+    </div>
+
+    <div class="image-container">
+        <img class="img2"
+             src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=60"
+             alt="Calm ocean waves at sunset"
+             width="800"
+             height="533"
+             title="Ocean Sunset by Sebastian Voortman">
+        <p class="license">Photo by Sebastian Voortman on Unsplash — Free for commercial use, no attribution required</p>
+    </div>
+
+    <div class="image-container">
+        <img class="img3"
+             src="image/istockphoto-1491158797-612x612.jpg"
+             alt="Forest with tall pine trees and sunlight"
+             width="800"
+             height="533"
+             title="Forest by Annie Spratt">
+        <p class="license">Photo by Annie Spratt on Unsplash — Free for commercial use, no attribution required</p>
+    </div>
+</body>
+</html>
